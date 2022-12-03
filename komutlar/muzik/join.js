@@ -6,7 +6,7 @@ module.exports = {
         aliases: ["katıl"],
         description: "Bot ses kanalına katılır.",
 		kategori: "muzik"
-
+		
     },
     run: async (client, message, args) => {
         const msg = await message.channel.send("Yükleniyor Lütfen Bekleyin");
